@@ -2,16 +2,14 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     container: {
-      center: true,
-      padding: "2rem",
+      center: false,
+      padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1200px",
       },
     },
     extend: {
@@ -19,13 +17,13 @@ module.exports = {
         // iOS-inspired color palette
         "ios-blue": {
           DEFAULT: "#007AFF",
-          light: "#64D2FF",
-          dark: "#0040DD",
+          light: "#3395FF",
+          dark: "#0056B3"
         },
         "ios-gray": {
           DEFAULT: "#8E8E93",
-          light: "#E5E5EA",
-          dark: "#48484A",
+          light: "#AEAEB2",
+          dark: "#636366"
         },
         "ios-red": {
           DEFAULT: "#FF3B30",
@@ -76,7 +74,7 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
         // iOS-style rounded corners
-        "ios": "10px",
+        "ios": "8px",
       },
       fontFamily: {
         sans: [
@@ -91,7 +89,7 @@ module.exports = {
       },
       boxShadow: {
         // iOS style shadows
-        "ios": "0 2px 10px rgba(0, 0, 0, 0.05)",
+        "ios": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
         "ios-strong": "0 4px 20px rgba(0, 0, 0, 0.1)",
       },
       keyframes: {

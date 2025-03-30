@@ -88,8 +88,8 @@
   }
   
   .ios-button-secondary {
-    @apply rounded-full bg-ios-gray-light text-ios-blue font-medium py-2 px-5 transition-colors
-      hover:bg-ios-gray-light/90 active:bg-ios-gray-light/80;
+    @apply rounded-full bg-gray-100 text-ios-blue font-medium py-2 px-5 transition-colors
+      hover:bg-gray-200 active:bg-gray-300;
   }
   
   .ios-card {
@@ -97,11 +97,11 @@
   }
   
   .ios-input {
-    @apply rounded-lg border border-ios-gray-light bg-ios-gray-light/30 px-4 py-2
+    @apply rounded-lg border border-gray-200 bg-gray-50/30 px-4 py-2
       focus:outline-none focus:ring-2 focus:ring-ios-blue/30 focus:border-ios-blue;
   }
   
   .ios-navbar {
-    @apply px-4 py-3 bg-white/80 backdrop-blur-md border-b border-ios-gray-light/50;
+    @apply px-4 py-3 bg-white/80 backdrop-blur-md border-b border-gray-200/50;
   }
 } 

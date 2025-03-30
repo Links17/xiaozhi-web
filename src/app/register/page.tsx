@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { RegisterForm } from "@/components/auth/register-form";
+import { RegisterForm } from "@/components/login/register-form";
 
 export default function RegisterPage() {
   return (
@@ -9,11 +9,11 @@ export default function RegisterPage() {
           <span className="text-3xl font-bold text-white">小</span>
         </div>
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tight">
-            Create an Account
+          <h1 className="text-3xl font-bold tracking-tight text-gray-900">
+            创建账号
           </h1>
           <p className="text-ios-gray">
-            Sign up to get started with Xiaozhi
+            欢迎加入小智.AI设备管理系统
           </p>
         </div>
       </div>
@@ -23,9 +23,9 @@ export default function RegisterPage() {
         
         <div className="mt-6 text-center text-sm">
           <p className="text-ios-gray">
-            Already have an account?{" "}
+            已有账号？{" "}
             <Link href="/login" className="font-medium text-ios-blue hover:underline">
-              Sign in
+              立即登录
             </Link>
           </p>
         </div>
